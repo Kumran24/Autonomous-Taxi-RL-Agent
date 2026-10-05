@@ -23,32 +23,7 @@ In the `Taxi-v3` environment, there are 4 designated locations in the grid world
 * **Language:** Python
 * **Libraries:** `gymnasium`, `numpy`, `os`, `time`, `random`
 
-## 🚀 Installation & Setup
 
-1. **Clone the repository:**
-   ```bash
-   git clone https://github.com/yourusername/taxi-q-learning.git
-   cd taxi-q-learning
-   ```
-
-2. **Install the required dependencies:**
-   ```bash
-   pip install gymnasium pygame numpy
-   ```
-
-## 🎮 Usage
-
-Run the main script to train the agent and watch it perform in your terminal:
-
-```bash
-python taxi_agent.py
-```
-
-**What happens when you run it?**
-1. **Training Phase:** The agent plays 10,000 episodes silently in the background (takes just a few seconds).
-2. **Evaluation Phase:** The terminal clears, and you will see a text-based animation of the fully trained agent navigating the grid, picking up the passenger, and dropping them off.
-
-## 🧠 How It Works Under the Hood
 
 This project utilizes a **Q-Table**, a matrix of 500 rows (possible states) and 6 columns (possible actions). 
 
